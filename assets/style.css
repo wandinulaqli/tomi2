@@ -101,7 +101,7 @@ body {
 }
 
 .home {
-  background-image: url("https://raw.githubusercontent.com/wandinulaqli/tomi2/refs/heads/main/img/tomi5.jpeg");
+  background-image: url("https://images.rawpixel.com/image_social_portrait/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjc5Ni1udW5ueS0wOS5qcGc.jpg");
   background-size: cover;
   min-height: 100vh;
   /* margin-top: -6rem; */
@@ -302,39 +302,62 @@ body {
 .rsvp {
   padding-top: 10rem;
   padding-bottom: 8rem;
+  background-color: var(--bg);
 }
 
-.rsvp h3 {
-  font-family: "Work Sans", sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
 
 .rsvp p {
-  font-family: "Sacramento", cursive;
-  font-size: 1.9rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2rem;
 }
 
-.tabel-form {
+.rsvp .card {
+  background: transparent;
+  border: 0;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rsvp .card-body {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.rsvp .card .card-body .form-control {
+  width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff66b3;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.rsvp label {
+  color: #fff;
+}
+
+.rsvp .form-group {
+  border-radius: 3px;
+  display: flex;
   margin: auto;
-  flex-direction: column;
-  height: 500px;
-  background-color: #cccccc2d;
+  justify-content: center;
+}
+
+.rsvp .form-group button {
+  background-color: #ff3385;
+  color: white;
+  border: none;
   border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
 }
 
-.tabel-form .form-control {
-  width: 650px;
-}
 
-.tabel-form label {
-  text-align: end !important;
-}
 
 .gifts {
   padding-top: 10rem;
@@ -441,14 +464,14 @@ body {
 
 /* Media Queries */
 /* Extra Large */
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 1200px) {
   .home .heart {
     transform: translateX(-50%) translateY(45px);
   }
 }
 
 /* Laptop */
-@media screen and (max-width: 292px) {
+@media screen and (max-width: 992px) {
   html {
     font-size: 75%;
   }
@@ -490,7 +513,8 @@ body {
 }
 
 /* Tablet */
-@media screen and (max-width: 168px) {
+@media screen and (max-width: 268px) {
+
   html {
     font-size: 62%;
   }
@@ -500,9 +524,9 @@ body {
     padding: 45px !important;
   }
 
-  /* .navbar {
+  .navbar {
     display: none;
-  } */
+  }
 
   .mynavbar .nav-link {
     font-size: 2rem;
@@ -519,12 +543,13 @@ body {
     height: 140px;
   }
 
-  .tabel-form .form-control {
-    width: 400px;
-  }
-
   .gifts img {
     width: 135px;
+  }
+
+  .footer {
+    background-color: #dbdada;
+    padding-bottom: 70px;
   }
 }
 
@@ -563,12 +588,9 @@ body {
     margin-top: 10px;
   }
 
-  .tabel-form {
-    height: 300px;
-  }
+  .gifts {
+    margin-top: 14rem;
 
-  .tabel-form .form-control {
-    width: 300px;
   }
 
   .gifts img {
