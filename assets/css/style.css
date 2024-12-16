@@ -39,7 +39,7 @@ body {
   height: 100%;
   z-index: -2;
   filter: blur(1px);
-  background-image: url(/img/bg-prewed.jpg);
+  background-image: url("https://raw.githubusercontent.com/wandinulaqli/tomi2/refs/heads/main/img/thumbnail/tomi2.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 .home {
-  background-image: url(/img/bg.png);
+  background-image: url("https://static.wixstatic.com/media/9bb9b0_b4c21e4787a74f5e9a38f390bd58f5b4~mv2.jpg/v1/fill/w_1280,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/9bb9b0_b4c21e4787a74f5e9a38f390bd58f5b4~mv2.jpg");
   background-size: cover;
   min-height: 100vh;
   /* margin-top: -6rem; */
