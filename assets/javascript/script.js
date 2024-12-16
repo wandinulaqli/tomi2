@@ -57,7 +57,7 @@ track.addEventListener("ended", function () {
 
   button.addEventListener("click", ()=>{
     let url =
-      "https://wa.me/62812341234?text=" + // Ubah nomor whatsapp dengan nomor kalian
+      "https://wa.me/6282262162246?text=" + // Ubah nomor whatsapp dengan nomor kalian
       "Nama : " + name + "%0a" +
       "Email : " + email + "%0a" +
       "Phone : " + phone + "%0a" + "%0a" +
